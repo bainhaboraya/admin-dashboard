@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./styll.css">
+    
+</head>
+<body>
+    <!-- ================nav=================== -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                     <span class="icon"></span>
+                       <span class="title">Brand Name</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                     <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                       <span class="title">Dashboard</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                     <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                       <span class="title">Customers</span> 
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="#">
+                     <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                       <span class="title">Password</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                     <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                       <span class="title">Log Out</span> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- =======body============= -->
+        <div class="main">
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Orders</h2>
+                        
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                                <td>Action</td>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>star</td>
+                                <td>$1200</td>
+                                <td>paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>dell</td>
+                                <td>$1500</td>
+                                <td>paid</td>
+                                <td><span class="status pending">pending</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>Apple watch</td>
+                                <td>$120</td>
+                                <td>paid</td>
+                                <td><span class="status return">Return</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>Adidas shoes</td>
+                                <td>$90</td>
+                                <td>Due</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>star</td>
+                                <td>$1200</td>
+                                <td>paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>dell</td>
+                                <td>$1500</td>
+                                <td>paid</td>
+                                <td><span class="status pending">pending</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>Apple watch</td>
+                                <td>$120</td>
+                                <td>paid</td>
+                                <td><span class="status return">Return</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>Adidas shoes</td>
+                                <td>$90</td>
+                                <td>Due</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>Adidas shoes</td>
+                                <td>$90</td>
+                                <td>Due</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                                <td><button class="deleteBtn">Delete</button></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- ==========new customer===== -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    <table  id="customerTable">
+                        <tr>
+                            <td >
+                              <h4>Ali<br><span>Egypt</span></h4>
+                              <div class="actions">
+                                <button class="deleteBtn">Delete</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                              <h4>omar<br><span>Qater</span></h4>
+                              <div class="actions">
+                                <button class="deleteBtn">Delete</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                              <h4>Martin<br><span>USA</span></h4>
+                              <div class="actions">
+                                <button class="deleteBtn">Delete</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                              <h4>Jone<br><span>USA</span></h4>
+                              <div class="actions">
+                                <button class="deleteBtn">Delete</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                              <h4>Ali<br><span>Egypt</span></h4>
+                              <div class="actions">
+                                <button class="deleteBtn">Delete</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                              <h4>Ali<br><span>Egypt</span></h4>
+                              <div class="actions">
+                                <button class="deleteBtn">Delete</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                              <h4>Ali<br><span>Egypt</span></h4>
+                              <div class="actions">
+                                <button class="deleteBtn">Delete</button>
+                            </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- ==========new customer===== -->
+<div class="ServiceOwners">
+    <div class="cardHeader">
+        <h2>Service Owners</h2>
+    </div>
+    <table id="serviceOwnersTable">
+        <tr>
+            <td>
+                <h4>John Doe</h4>
+                <div class="actions">
+                    <button class="activateBtn">Activate</button>
+                    <button class="deactivateBtn">Deactivate</button>
+                    <button class="deleteBtn">Delete</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Jane Smith</h4>
+                <div class="actions">
+                    <button class="activateBtn">Activate</button>
+                    <button class="deactivateBtn">Deactivate</button>
+                    <button class="deleteBtn">Delete</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Mark Johnson</h4>
+                <div class="actions">
+                    <button class="activateBtn">Activate</button>
+                    <button class="deactivateBtn">Deactivate</button>
+                    <button class="deleteBtn">Delete</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Mark Johnso</h4>
+                <div class="actions">
+                    <button class="activateBtn">Activate</button>
+                    <button class="deactivateBtn">Deactivate</button>
+                    <button class="deleteBtn">Delete</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Mark Johnson</h4>
+                <div class="actions">
+                    <button class="activateBtn">Activate</button>
+                    <button class="deactivateBtn">Deactivate</button>
+                    <button class="deleteBtn">Delete</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Mark Johnson</h4>
+                <div class="actions">
+                    <button class="activateBtn">Activate</button>
+                    <button class="deactivateBtn">Deactivate</button>
+                    <button class="deleteBtn">Delete</button>
+                </div>
+            </td>
+        </tr>
+        
+    </table>
+</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- ==========script========== -->
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- ========icons============== -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
